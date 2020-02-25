@@ -1,0 +1,109 @@
+openapi: 3.0.1
+info:
+  title: Marka - QR Service
+  description: Api documentation of QR Service
+  version: 1.0.0
+externalDocs:
+  description: Find out more about Marka
+  url: https://marka.club/docs
+servers:
+  - url: https://localhost:8080
+tags:
+  - name: QR
+  - name: User
+paths:
+  /qr:
+    post:
+      tags:
+        - QR
+      summary: Create user
+      description: This can only be done by the logged in user.
+      operationId: createQRCodes
+      responses:
+        200:
+          description: Successful Operation
+          content:
+            'application/json':
+              schema:
+                $ref: '#/components/schemas/QR'
+        400:
+          $ref: '#/components/responses/Error'
+        401:
+          $ref: '#/components/responses/UnauthorizedError'
+      x-codegen-request-body-name: body
+    put:
+      tags:
+        - Operations
+      operationId: updateQR
+      parameters:
+        - name: hash
+          in: path
+          description: hash value of QR
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Updated QR object
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QR'
+        required: true
+      responses:
+        400:
+          description: Invalid user supplied
+          content: {}
+        404:
+          description: User not found
+          content: {}
+      x-codegen-request-body-name: body
+components:
+  schemas:
+    QR:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        storeId:
+          type: integer
+          format: int64
+        hash:
+          type: string
+          description: unique hash code for qrs to make them unique
+        isUsed:
+          type: boolean
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      required:
+        - code
+        - message
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  responses:
+    Error:
+      description: Error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    UnauthorizedError:
+      description: Access token is missing or invalid
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    NotFound:
+      description: Not found!
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'

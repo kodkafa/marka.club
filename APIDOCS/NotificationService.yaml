@@ -1,0 +1,51 @@
+openapi: 3.0.1
+info:
+  title: Marka - Notification Service
+  description: Api documentation of Notification Service
+  version: 1.0.0
+externalDocs:
+  description: Find out more about Marka
+  url: https://marka.club/docs
+servers:
+  - url: https://localhost:8080
+tags:
+  - name: Notification
+paths:
+  /transaction:
+    post:
+      tags:
+        - Operations
+      operationId: createTransaction
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+      responses:
+        200:
+          description: OK
+  /qr:
+    post:
+      summary: generates a new qr code to consume
+      tags:
+        - Operations
+      requestBody:
+        content:
+          applicaton/json:
+            schema:
+              $ref: '#/components/schemas/QR'
+      responses:
+        200:
+          description: OK
+components:
+  schemas:
+    ApiResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+        type:
+          type: string
+        message:
+          type: string

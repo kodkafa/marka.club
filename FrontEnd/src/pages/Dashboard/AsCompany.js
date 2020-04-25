@@ -1,14 +1,22 @@
 import {inject, observer} from "mobx-react";
 import React, {useEffect} from 'react';
 
-export const Company = inject('AccountStore', 'CodeStore')(observer(props => {
+export const Company = inject('AccountStore', 'CodeStore', 'QRStore')(observer(props => {
 
   useEffect(() => {
     props.CodeStore.read()
   }, [props.CodeStore])
+
   const {state, meta, list} = props.CodeStore
+
+  useEffect(() => {
+    if (list.length)
+      props.QRStore.create(window.location.origin + "/codes/use/" + list.filter(i => !i.isUsed)[0].code)
+  }, [props.QRStore, list])
+
+  const {QR} = props.QRStore;
   const {me} = props.AccountStore;
-  console.log({state, meta, list})
+  console.log({state, meta, list, QR})
 
   const renderHello = (user) => {
     if (user) {
@@ -16,6 +24,9 @@ export const Company = inject('AccountStore', 'CodeStore')(observer(props => {
     }
   };
 
+  const handleGenerate = async () => {
+    props.CodeStore.read()
+  }
   const handleClick = async () => {
     const {me} = props.AccountStore;
     const owner = {
@@ -50,6 +61,8 @@ export const Company = inject('AccountStore', 'CodeStore')(observer(props => {
             </div>
           </div>
           <div className="mb-3 p-2 card h-75 overflow-auto">
+
+
             <table className="table">
               <thead>
               <tr>
@@ -63,7 +76,7 @@ export const Company = inject('AccountStore', 'CodeStore')(observer(props => {
               <tbody>
               {list.map((i, k) =>
                 <tr key={i.id} className="small">
-                  <th scope="row">{k+1}</th>
+                  <th scope="row">{k + 1}</th>
                   <td>{i.isUsed
                     ? <span className="d-block p-1">{i.code}</span>
                     : <a key={i.id} className="link d-block p-1" href={"/codes/use/" + i.code}
@@ -89,6 +102,8 @@ export const Company = inject('AccountStore', 'CodeStore')(observer(props => {
           <div className="mb-3 p-2 card h-50 text-muted small">
             <p>Hello <span className="text-primary">{me.first} {me.last}</span>,<br/>
               You logged as a <span className="text-info">{me.role}</span>.</p>
+            <button className="btn btn-secondary" onClick={handleGenerate}>Generate QR</button>
+            <div dangerouslySetInnerHTML={{__html: QR}}/>
           </div>
         </div>
       </div>

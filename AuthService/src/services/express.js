@@ -33,7 +33,9 @@ exports.start = () => {
       process.exit(-1)
     }
 
-    console.log(`${config.app} is running on ${config.port}`)
+    console.log(`|=============================================================|`)
+    console.log(`\t${config.app} - ${config.service} is running on ${config.port}\n\t${config.hostname}`)
+    console.log(`|=============================================================|`)
   })
 }
 

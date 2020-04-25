@@ -5,6 +5,7 @@ import SystemMessageStore from './SystemMessageStore';
 import AccountStore from './AccountStore';
 import UserStore from './UserStore';
 import {Store as CodeStore} from './CodeStore';
+import {Store as QRStore} from './QRStore';
 
 class RootStore {
   constructor() {
@@ -15,6 +16,7 @@ class RootStore {
     this.AccountStore = new AccountStore(this);
     this.UserStore = new UserStore(this);
     this.CodeStore = new CodeStore(this);
+    this.QRStore = new QRStore(this);
   }
 }
 

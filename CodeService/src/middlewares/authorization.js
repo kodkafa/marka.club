@@ -1,6 +1,6 @@
 'use strict'
 
-const User = require('../models/user.model')
+const config = require('../config')
 const passport = require('passport')
 const APIError = require('../utils/APIError')
 const httpStatus = require('http-status')
@@ -18,7 +18,7 @@ const handleJWT = (req, res, next, roles) => async (err, user, info) => {
   // log user in
   try {
     if (error || !user) throw error
-    await logIn(user, { session: false })
+    await logIn(user, {session: false})
   } catch (e) {
     return next(apiError)
   }
@@ -34,10 +34,10 @@ const handleJWT = (req, res, next, roles) => async (err, user, info) => {
 }
 
 // exports the middleware
-const authorize = (roles = User.roles) => (req, res, next) =>
+const authorize = (roles = config.roles) => (req, res, next) =>
   passport.authenticate(
     'jwt',
-    { session: false },
+    {session: false},
     handleJWT(req, res, next, roles)
   )(req, res, next)
 

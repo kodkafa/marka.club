@@ -1,6 +1,7 @@
 import cookie from "react-cookies";
 
-const API_URL = 'http://localhost:4000/api';//process.env.REACT_APP_API_URL;
+// console.log(window.location)
+const API_URL = window.location.origin.replace(window.location.port, 4000) + '/api';//process.env.REACT_APP_API_URL;
 const LOGIN_URL = process.env.REACT_APP_LOGIN_URL;
 
 export class request {
@@ -79,7 +80,7 @@ export class request {
       mode: 'cors',
     });
     const result = await response.json();
-    if (response.status === 200)
+    if (response.status < 300)
       return result || true;
 
     throw new Error(result.message);
@@ -90,7 +91,11 @@ export class request {
     const url = API_URL + endpoint;
     const response = await fetch(url, {
       method: "POST",
-      headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token},
+      headers: token
+        ? {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer ' + token
+        } : {'Content-Type': 'application/json'},
       mode: 'cors',
       body: JSON.stringify(data)
     });

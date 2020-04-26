@@ -3,7 +3,7 @@ services:
   frontend:
     image: frontend:marka
     ports:
-      - 3300:3300
+      - 80:80
     depends_on:
       - gateway
     environment:

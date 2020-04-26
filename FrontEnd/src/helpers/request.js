@@ -1,9 +1,8 @@
 import cookie from "react-cookies";
 
-// console.log(window.location)
-const API_URL = window.location.origin.replace(window.location.port, 4000) + '/api';//process.env.REACT_APP_API_URL;
-const LOGIN_URL = process.env.REACT_APP_LOGIN_URL;
-
+const url = window.location.origin.replace(window.location.port, '')
+const API_URL = url + (url.substr(-1) === ':' ? '4000/api' : ':4000/api')
+console.log({API_URL})
 export class request {
 
   static get token() {
@@ -15,39 +14,12 @@ export class request {
     return cookie.load('access_token');
   }
 
-  static refreshToken = async () => {
-    const {access_token, refresh_token, remember} = cookie.loadAll();
-    if (access_token && refresh_token) {
-      const res = await this.post('/auth/refresh-token', {access_token, refresh_token}, false)
-        .then()
-        .catch(error => error);
-
-      if (!res.data) {
-//console.log('error', res);
-        this.deleteCookies()
-        if (window.location.href !== LOGIN_URL)
-          window.location.href = LOGIN_URL;
-        throw new Error(res['error_message']);
-      }
-
-      this.setCookies({access_token: res.data.AccessToken, id_token: res.data.IdToken, remember});
-      return res.data.IdToken;
-    }
-    return false
-  };
-
   static deleteCookies = () => {
-    const domain = process.env.REACT_APP_COOKIE_DOMAIN || null;//".evet.com";
-
-    cookie.save('token', '', {path: '/', domain});
-
     cookie.remove('token');
     cookie.remove('remember');
-
   };
 
   static setCookies = ({token, remember}) => {
-    const domain = process.env.REACT_APP_COOKIE_DOMAIN || null;//".evet.com";
     const expires = new Date();
     if (remember) {
       expires.setTime(Date.now() + 1000 * 60 * 60 * 24 * 14); //2 weeks
@@ -57,14 +29,12 @@ export class request {
     if (token)
       cookie.save('token', token, {
         path: '/',
-        expires,
-        domain
+        expires
       });
     if (remember)
       cookie.save('remember', remember, {
         path: '/',
-        expires,
-        domain
+        expires
       });
   };
 

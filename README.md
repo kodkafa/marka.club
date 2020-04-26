@@ -1,5 +1,22 @@
 # marka.club
 
+### Docker
+
+#### Builds
+`
+docker build ./APIGATEWAY -t apigateway:marka
+docker build ./AuthService -t authservice:marka
+docker build ./UserService -t userservice:marka
+docker build ./CodeService -t codeservice:marka
+docker build ./TransactionService -t transactionservice:marka
+docker build ./QRService -t qrservice:marka
+docker build ./FrontEnd -t frontend:marka
+`
+#### Docker Compose
+`docker-compose up`
+
+
+
 TODOS
 * Check and fix APIDOCS
 * Create the APIDOCS on swagger

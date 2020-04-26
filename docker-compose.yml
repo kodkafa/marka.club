@@ -1,0 +1,152 @@
+version: "3"
+services:
+  frontend:
+    image: frontend:marka
+    ports:
+      - 80:80
+    depends_on:
+      - gateway
+    environment:
+      REACT_APP_API_URL: "http://localhost:4000/api"
+  gateway:
+    image: apigateway:marka
+    ports:
+      - 4000:4000
+    depends_on:
+      - auth
+    environment:
+      NODE_ENV: "dev"
+      APP: "MARKA.CLUB"
+      SERVICE: "API GATEWAY"
+      PORT: "4000"
+      HOSTNAME: "http://gateway:4000"
+      FRONT_END: "http://frontend:3300"
+      API_GATEWAY: "http://gateway:4000"
+      AUTH_SERVICE: "http://auth:4001"
+      USER_SERVICE: "http://user:4002"
+      CODE_SERVICE: "http://code:4004"
+      TRANSACTION_SERVICE: "http://transaction:4006"
+      QR_SERVICE: "http://qr:4008"
+  auth:
+    image: authservice:marka
+    ports:
+      - 4001:4001
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: "dev"
+      APP: "MARKA.CLUB"
+      SERVICE: "AUTH SERVICE"
+      PORT: "4001"
+      HOSTNAME: "http://auth:4001"
+      FRONT_END: "http://frontend:3300"
+      API_GATEWAY: "http://gateway:4000"
+      AUTH_SERVICE: "http://auth:4001"
+      USER_SERVICE: "http://user:4002"
+      CODE_SERVICE: "http://code:4004"
+      TRANSACTION_SERVICE: "http://transaction:4006"
+      QR_SERVICE: "http://qr:4008"
+      MONGOURI: "mongodb://mongo:27017/marka"
+      MONGOTESTURI: "mongodb://mongo:27017/test-app"
+      APP_SECRET: "5fb44d89aa51fd8d1752f21451f4e079"
+      TRANSPORTER_SERVICE: "smptp.gmail.com"
+      TRANSPORTER_EMAIL: "the.marka.club@gmail.com"
+      TRANSPORTER_PASSWORD: "m@rk@club"
+      ACTIVATION: "false"
+  user:
+    image: userservice:marka
+    ports:
+      - 4002:4002
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: "dev"
+      APP: "MARKA.CLUB"
+      SERVICE: "USER SERVICE"
+      PORT: "4002"
+      HOSTNAME: "http://auth:4002"
+      FRONT_END: "http://frontend:3300"
+      API_GATEWAY: "http://gateway:4000"
+      AUTH_SERVICE: "http://auth:4001"
+      USER_SERVICE: "http://user:4002"
+      CODE_SERVICE: "http://code:4004"
+      TRANSACTION_SERVICE: "http://transaction:4006"
+      QR_SERVICE: "http://qr:4008"
+      MONGOURI: "mongodb://mongo:27017/marka"
+      MONGOTESTURI: "mongodb://mongo:27017/test-app"
+      APP_SECRET: "5fb44d89aa51fd8d1752f21451f4e079"
+      TRANSPORTER_SERVICE: "smptp.gmail.com"
+      TRANSPORTER_EMAIL: "the.marka.club@gmail.com"
+      TRANSPORTER_PASSWORD: "m@rk@club"
+      ACTIVATION: "false"
+  code:
+    image: codeservice:marka
+    ports:
+      - 4004:4004
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: "dev"
+      APP: "MARKA.CLUB"
+      SERVICE: "CODE SERVICE"
+      PORT: "4004"
+      HOSTNAME: "http://auth:4004"
+      FRONT_END: "http://frontend:3300"
+      API_GATEWAY: "http://gateway:4000"
+      AUTH_SERVICE: "http://auth:4001"
+      USER_SERVICE: "http://user:4002"
+      CODE_SERVICE: "http://code:4004"
+      TRANSACTION_SERVICE: "http://transaction:4006"
+      QR_SERVICE: "http://qr:4008"
+      MONGOURI: "mongodb://mongo:27017/marka"
+      MONGOTESTURI: "mongodb://mongo:27017/test-app"
+      APP_SECRET: "5fb44d89aa51fd8d1752f21451f4e079"
+  transaction:
+    image: transactionservice:marka
+    ports:
+      - 4006:4006
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: "dev"
+      APP: "MARKA.CLUB"
+      SERVICE: "TRANSACTION SERVICE"
+      PORT: "4006"
+      HOSTNAME: "http://auth:4006"
+      FRONT_END: "http://frontend:3300"
+      API_GATEWAY: "http://gateway:4000"
+      AUTH_SERVICE: "http://auth:4001"
+      USER_SERVICE: "http://user:4002"
+      CODE_SERVICE: "http://code:4004"
+      TRANSACTION_SERVICE: "http://transaction:4006"
+      QR_SERVICE: "http://qr:4008"
+      MONGOURI: "mongodb://mongo:27017/marka"
+      MONGOTESTURI: "mongodb://mongo:27017/test-app"
+      APP_SECRET: "5fb44d89aa51fd8d1752f21451f4e079"
+      TRANSPORTER_SERVICE: "smptp.gmail.com"
+      TRANSPORTER_EMAIL: "the.marka.club@gmail.com"
+      TRANSPORTER_PASSWORD: "m@rk@club"
+      ACTIVATION: "false"
+  qr:
+    image: qrservice:marka
+    ports:
+      - 4008:4008
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: "dev"
+      APP: "MARKA.CLUB"
+      SERVICE: "QR SERVICE"
+      PORT: "4008"
+      HOSTNAME: "http://auth:4008"
+      FRONT_END: "http://frontend:3300"
+      API_GATEWAY: "http://gateway:4000"
+      AUTH_SERVICE: "http://auth:4001"
+      USER_SERVICE: "http://user:4002"
+      CODE_SERVICE: "http://code:4004"
+      TRANSACTION_SERVICE: "http://transaction:4006"
+      QR_SERVICE: "http://qr:4008"
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"

@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:current-slim
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -15,5 +15,5 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 4008
 CMD [ "node", "src/index.js" ]

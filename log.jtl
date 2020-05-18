@@ -1,0 +1,1331 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1589834240892,49,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,2,2,http://localhost:4000/api/auth/register,0,0,49
+1589834240892,49,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,2,2,http://localhost:4000/api/auth/register,0,0,49
+1589834240943,1,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,2,2,http://localhost:4000/api/auth/login,0,0,1
+1589834240943,1,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,2,2,http://localhost:4000/api/auth/login,0,0,1
+1589834240973,1,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,2,2,http://localhost:4000/api/users/me,0,0,1
+1589834240973,1,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,2,2,http://localhost:4000/api/users/me,0,0,0
+1589834240977,1,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,2,2,http://localhost:4000/api/codes/generate,0,0,1
+1589834240977,1,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,2,2,http://localhost:4000/api/codes/generate,0,0,1
+1589834241000,1,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,3,3,http://localhost:4000/api/auth/register,0,0,1
+1589834241002,0,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,3,3,http://localhost:4000/api/auth/login,0,0,0
+1589834241004,1,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,3,3,http://localhost:4000/api/users/me,0,0,1
+1589834241008,1,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,3,3,http://localhost:4000/api/codes/generate,0,0,1
+1589834241101,0,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/auth/register,0,0,0
+1589834241102,1,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/auth/login,0,0,1
+1589834241105,0,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/users/me,0,0,0
+1589834241107,1,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/codes/generate,0,0,1
+1589834240978,1,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,2,2,http://localhost:4000/api/codes,0,0,1
+1589834241010,0,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,3,3,http://localhost:4000/api/codes,0,0,0
+1589834240978,1,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,2,2,http://localhost:4000/api/codes,0,0,1
+1589834241114,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,4,4,http://localhost:4000/api/auth/register,0,0,1
+1589834241114,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,4,4,http://localhost:4000/api/auth/register,0,0,1
+1589834241114,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,4,4,http://localhost:4000/api/auth/register,0,0,1
+1589834241116,1,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,4,4,http://localhost:4000/api/auth/login,0,0,1
+1589834241116,1,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,4,4,http://localhost:4000/api/auth/login,0,0,1
+1589834241116,1,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,4,4,http://localhost:4000/api/auth/login,0,0,1
+1589834241108,1,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/codes,0,0,1
+1589834241124,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/auth/register,0,0,1
+1589834241125,2,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/auth/login,0,0,2
+1589834241146,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-2,text,false,,2581,0,4,4,http://localhost:4000/api/codes,0,0,1
+1589834241146,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-4,text,false,,2581,0,4,4,http://localhost:4000/api/codes,0,0,1
+1589834241146,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-3,text,false,,2581,0,4,4,http://localhost:4000/api/codes,0,0,1
+1589834241146,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-1,text,false,,2581,0,4,4,http://localhost:4000/api/codes,0,0,1
+1589834241194,1,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,1
+1589834241196,1,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,1
+1589834241197,1,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/users/me,0,0,1
+1589834241200,0,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/codes/generate,0,0,0
+1589834241201,1,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241213,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,1
+1589834241214,1,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,1
+1589834241223,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-5,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241294,1,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,1
+1589834241295,1,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,1
+1589834241297,0,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/users/me,0,0,0
+1589834241299,0,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/codes/generate,0,0,0
+1589834241300,0,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,0
+1589834241307,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,1
+1589834241308,1,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,1
+1589834241316,0,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-6,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,0
+1589834241385,1,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,1
+1589834241387,0,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,0
+1589834241388,1,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/users/me,0,0,1
+1589834241391,0,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/codes/generate,0,0,0
+1589834241392,1,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241399,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,1
+1589834241400,1,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,1
+1589834241407,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-7,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241486,0,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,0
+1589834241487,0,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,0
+1589834241488,1,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/users/me,0,0,1
+1589834241490,1,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/codes/generate,0,0,1
+1589834241491,0,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,0
+1589834241498,0,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,0
+1589834241499,0,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,0
+1589834241505,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-8,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241595,2,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,2
+1589834241597,2,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,2
+1589834241600,1,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/users/me,0,0,1
+1589834241603,1,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/codes/generate,0,0,1
+1589834241605,1,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241613,1,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,1
+1589834241615,0,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,0
+1589834241623,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-9,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241698,0,Company Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,0
+1589834241699,0,Company Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,0
+1589834241700,0,Get user info,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/users/me,0,0,0
+1589834241701,1,Generate Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/codes/generate,0,0,1
+1589834241702,1,Get Codes,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589834241711,0,Customer Sign Up,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/auth/register,0,0,0
+1589834241712,0,Customer Sign In,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/auth/login,0,0,0
+1589834241719,1,Get Gifts,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:4000 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused",Marka Test 1-10,text,false,,2581,0,1,1,http://localhost:4000/api/codes,0,0,1
+1589840314996,1860,Company Sign Up,201,Created,Marka Test 1-10,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,1860,0,1
+1589840314497,2363,Company Sign Up,201,Created,Marka Test 1-5,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2363,0,1
+1589840314230,2623,Company Sign Up,201,Created,Marka Test 1-2,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2611,0,59
+1589840314397,2456,Company Sign Up,201,Created,Marka Test 1-4,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2450,0,1
+1589840314230,2623,Company Sign Up,201,Created,Marka Test 1-1,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2611,0,60
+1589840314602,2260,Company Sign Up,201,Created,Marka Test 1-6,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2260,0,1
+1589840314698,2155,Company Sign Up,201,Created,Marka Test 1-7,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2155,0,1
+1589840314314,2539,Company Sign Up,201,Created,Marka Test 1-3,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2536,0,0
+1589840314898,1967,Company Sign Up,201,Created,Marka Test 1-9,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,1966,0,1
+1589840314791,2076,Company Sign Up,201,Created,Marka Test 1-8,text,true,,658,381,10,10,http://localhost:4000/api/auth/register,2076,0,1
+1589840316863,529,Company Sign In,200,OK,Marka Test 1-6,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,528,0,2
+1589840316863,524,Company Sign In,200,OK,Marka Test 1-5,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,524,0,3
+1589840317430,123,Get user info,200,OK,Marka Test 1-5,text,true,,662,333,10,10,http://localhost:4000/api/users/me,123,0,1
+1589840317430,133,Get user info,200,OK,Marka Test 1-6,text,true,,662,333,10,10,http://localhost:4000/api/users/me,132,0,1
+1589840317565,975,Generate Codes,201,Created,Marka Test 1-6,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,975,0,1
+1589840317556,1007,Generate Codes,201,Created,Marka Test 1-5,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,1006,0,1
+1589840316864,1865,Company Sign In,200,OK,Marka Test 1-3,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,1865,0,2
+1589840316865,1871,Company Sign In,200,OK,Marka Test 1-9,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,1871,0,1
+1589840316863,1873,Company Sign In,200,OK,Marka Test 1-1,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,1873,0,2
+1589840316863,1879,Company Sign In,200,OK,Marka Test 1-4,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,1879,0,2
+1589840316863,1886,Company Sign In,200,OK,Marka Test 1-10,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,1885,0,2
+1589840318730,57,Get user info,200,OK,Marka Test 1-3,text,true,,662,333,10,10,http://localhost:4000/api/users/me,57,0,1
+1589840318743,65,Get user info,200,OK,Marka Test 1-4,text,true,,662,333,10,10,http://localhost:4000/api/users/me,65,0,2
+1589840318737,74,Get user info,200,OK,Marka Test 1-1,text,true,,662,333,10,10,http://localhost:4000/api/users/me,74,0,1
+1589840318737,84,Get user info,200,OK,Marka Test 1-9,text,true,,662,333,10,10,http://localhost:4000/api/users/me,84,0,1
+1589840318750,77,Get user info,200,OK,Marka Test 1-10,text,true,,662,333,10,10,http://localhost:4000/api/users/me,77,0,0
+1589840318541,157,Get Codes,200,OK,Marka Test 1-6,text,true,,41126,330,10,10,http://localhost:4000/api/codes,155,0,0
+1589840318563,299,Get Codes,200,OK,Marka Test 1-5,text,true,,41126,330,10,10,http://localhost:4000/api/codes,299,0,1
+1589840316864,2767,Company Sign In,200,OK,Marka Test 1-7,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,2767,0,2
+1589840316864,2769,Company Sign In,200,OK,Marka Test 1-2,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,2769,0,2
+1589840316867,2767,Company Sign In,200,OK,Marka Test 1-8,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,2767,0,1
+1589840319633,62,Get user info,200,OK,Marka Test 1-2,text,true,,662,333,10,10,http://localhost:4000/api/users/me,62,0,1
+1589840319632,63,Get user info,200,OK,Marka Test 1-7,text,true,,662,333,10,10,http://localhost:4000/api/users/me,63,0,2
+1589840319634,68,Get user info,200,OK,Marka Test 1-8,text,true,,662,333,10,10,http://localhost:4000/api/users/me,68,0,1
+1589840318982,1268,Customer Sign Up,201,Created,Marka Test 1-5,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,1267,0,1
+1589840318982,1268,Customer Sign Up,201,Created,Marka Test 1-6,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,1268,0,1
+1589840318810,1820,Generate Codes,201,Created,Marka Test 1-4,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,1819,0,1
+1589840318824,1807,Generate Codes,201,Created,Marka Test 1-9,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,1807,0,2
+1589840318829,1823,Generate Codes,201,Created,Marka Test 1-10,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,1823,0,1
+1589840320250,584,Customer Sign In,200,OK,Marka Test 1-6,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,583,0,1
+1589840320249,585,Customer Sign In,200,OK,Marka Test 1-5,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,584,0,1
+1589840320630,263,Get Codes,200,OK,Marka Test 1-9,text,true,,41126,330,10,10,http://localhost:4000/api/codes,261,0,2
+1589840320629,285,Get Codes,200,OK,Marka Test 1-4,text,true,,41126,330,10,10,http://localhost:4000/api/codes,285,0,1
+1589840320652,342,Get Codes,200,OK,Marka Test 1-10,text,true,,41126,330,10,10,http://localhost:4000/api/codes,340,0,1
+1589840318788,2453,Generate Codes,201,Created,Marka Test 1-3,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,2452,0,1
+1589840318812,2469,Generate Codes,201,Created,Marka Test 1-1,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,2469,0,1
+1589840320860,645,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,645,0,0
+1589840320860,687,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,686,0,0
+1589840321240,456,Get Codes,200,OK,Marka Test 1-3,text,true,,41126,330,10,10,http://localhost:4000/api/codes,455,0,1
+1589840321281,520,Get Codes,200,OK,Marka Test 1-1,text,true,,41126,330,10,10,http://localhost:4000/api/codes,520,0,0
+1589840319697,2435,Generate Codes,201,Created,Marka Test 1-2,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,2434,0,1
+1589840321591,549,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,549,0,1
+1589840319703,2454,Generate Codes,201,Created,Marka Test 1-8,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,2454,0,1
+1589840320960,1203,Customer Sign Up,201,Created,Marka Test 1-4,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,1202,0,1
+1589840320921,1246,Customer Sign Up,201,Created,Marka Test 1-9,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,1246,0,0
+1589840321570,618,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,618,0,1
+1589840319697,2527,Generate Codes,201,Created,Marka Test 1-7,text,true,,461,649,10,10,http://localhost:4000/api/codes/generate,2527,0,1
+1589840322158,204,Get Codes,200,OK,Marka Test 1-8,text,true,,41126,330,10,10,http://localhost:4000/api/codes,203,0,3
+1589840322132,304,Get Codes,200,OK,Marka Test 1-2,text,true,,41126,330,10,10,http://localhost:4000/api/codes,298,0,2
+1589840322225,294,Get Codes,200,OK,Marka Test 1-7,text,true,,41126,330,10,10,http://localhost:4000/api/codes,294,0,1
+1589840322192,435,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,435,0,2
+1589840322229,470,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,470,0,1
+1589840322663,253,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,253,0,1
+1589840322734,212,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,212,0,1
+1589840321020,2148,Customer Sign Up,201,Created,Marka Test 1-10,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,2148,0,1
+1589840321724,1447,Customer Sign Up,201,Created,Marka Test 1-3,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,1447,0,1
+1589840321820,1358,Customer Sign Up,201,Created,Marka Test 1-1,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,1358,0,0
+1589840322946,250,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,250,0,2
+1589840322977,253,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,253,0,1
+1589840323219,183,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,183,0,1
+1589840323257,183,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,182,0,1
+1589840323426,251,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,251,0,1
+1589840323465,234,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,233,0,1
+1589840323735,254,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,253,0,2
+1589840323707,299,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,299,0,1
+1589840324020,153,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,153,0,0
+1589840324033,170,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,170,0,1
+1589840324195,246,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,246,0,2
+1589840324230,250,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,250,0,1
+1589840324460,187,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,187,0,1
+1589840324502,192,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,192,0,1
+1589840322386,2325,Customer Sign Up,201,Created,Marka Test 1-8,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,2325,0,0
+1589840322546,2168,Customer Sign Up,201,Created,Marka Test 1-7,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,2168,0,2
+1589840322461,2260,Customer Sign Up,201,Created,Marka Test 1-2,text,true,,618,299,10,10,http://localhost:4000/api/auth/register,2260,0,1
+1589840324666,212,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,212,0,1
+1589840324723,170,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,170,0,1
+1589840324898,219,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,219,0,1
+1589840324916,208,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,208,0,1
+1589840325147,167,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,167,0,1
+1589840325151,183,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,183,0,1
+1589840322163,3323,Customer Sign In,200,OK,Marka Test 1-4,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,3323,0,3
+1589840322167,3323,Customer Sign In,200,OK,Marka Test 1-9,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,3323,0,3
+1589840325340,222,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,221,0,1
+1589840325360,241,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,240,0,2
+1589840325496,349,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,349,0,0
+1589840325492,366,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,366,0,1
+1589840325593,346,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,346,0,1
+1589840325631,316,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,316,0,1
+1589840325866,239,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,239,0,1
+1589840325879,328,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,328,0,1
+1589840325970,289,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,289,0,0
+1589840325961,388,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,388,0,1
+1589840323169,3203,Customer Sign In,200,OK,Marka Test 1-10,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,3203,0,1
+1589840323172,3202,Customer Sign In,200,OK,Marka Test 1-3,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,3202,0,1
+1589840326126,461,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,461,0,1
+1589840326231,470,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,470,0,1
+1589840326280,427,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,427,0,1
+1589840326366,458,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,458,0,1
+1589840326378,452,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,452,0,2
+1589840326381,462,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,461,0,0
+1589840326605,315,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,314,0,1
+1589840326726,435,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,435,0,2
+1589840326729,467,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,467,0,2
+1589840326859,401,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,401,0,2
+1589840326855,497,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,497,0,5
+1589840326877,654,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,654,0,2
+1589840326947,711,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,711,0,1
+1589840327183,769,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,769,0,1
+1589840327297,657,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,656,0,0
+1589840327215,848,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,848,0,1
+1589840323178,4961,Customer Sign In,200,OK,Marka Test 1-1,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,4961,0,1
+1589840324718,3435,Customer Sign In,200,OK,Marka Test 1-2,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,3435,0,1
+1589840324710,3470,Customer Sign In,200,OK,Marka Test 1-7,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,3469,0,1
+1589840324708,3497,Customer Sign In,200,OK,Marka Test 1-8,text,true,,609,255,10,10,http://localhost:4000/api/auth/login,3497,0,0
+1589840327369,966,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,966,0,0
+1589840327553,797,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,797,0,1
+1589840327678,766,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,766,0,1
+1589840327975,598,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,598,0,1
+1589840327975,630,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,630,0,1
+1589840328161,518,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,518,0,2
+1589840328194,593,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,593,0,1
+1589840328087,746,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,746,0,3
+1589840328149,688,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,688,0,1
+1589840328220,666,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,666,0,1
+1589840328349,584,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,583,0,1
+1589840328368,660,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,660,0,1
+1589840328461,575,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,575,0,1
+1589840328592,752,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,752,0,0
+1589840328693,662,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,661,0,1
+1589840328803,552,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,551,0,0
+1589840328623,825,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,825,0,0
+1589840328852,604,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,604,0,1
+1589840328849,619,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,619,0,1
+1589840328956,583,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,583,0,1
+1589840329054,517,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,517,0,1
+1589840328904,716,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,716,0,1
+1589840329357,516,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,516,0,1
+1589840329047,903,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,903,0,1
+1589840329368,664,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,664,0,0
+1589840329470,578,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,578,0,1
+1589840329368,715,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,714,0,0
+1589840329586,650,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,650,0,1
+1589840329486,760,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,760,0,1
+1589840329558,725,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,725,0,1
+1589840329460,833,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,833,0,1
+1589840329637,706,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,706,0,2
+1589840329889,656,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,656,0,1
+1589840329966,720,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,720,0,2
+1589840330104,808,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,808,0,2
+1589840330069,881,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,881,0,1
+1589840330055,932,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,932,0,1
+1589840330263,737,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,737,0,1
+1589840330304,708,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,707,0,1
+1589840330255,822,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,822,0,1
+1589840330312,880,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,880,0,1
+1589840330361,855,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,855,0,1
+1589840330751,617,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,617,0,0
+1589840330568,911,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,911,0,1
+1589840331016,877,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,877,0,0
+1589840331091,816,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,815,0,1
+1589840330970,947,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,947,0,1
+1589840330930,989,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,989,0,1
+1589840331215,762,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,762,0,1
+1589840331393,650,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,649,0,1
+1589840331028,1041,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1040,0,1
+1589840331005,1070,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1070,0,1
+1589840331498,607,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,607,0,1
+1589840331236,995,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,995,0,3
+1589840331925,561,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,561,0,0
+1589840331933,699,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,699,0,1
+1589840331913,756,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,756,0,1
+1589840331992,680,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,680,0,1
+1589840331932,764,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,764,0,1
+1589840332067,715,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,715,0,1
+1589840332125,839,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,839,0,1
+1589840332082,904,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,904,0,1
+1589840332089,913,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,913,0,1
+1589840332250,795,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,795,0,1
+1589840332508,631,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,631,0,1
+1589840332649,623,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,622,0,1
+1589840332683,695,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,695,0,1
+1589840332716,801,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,801,0,1
+1589840332684,903,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,903,0,1
+1589840332988,640,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,639,0,2
+1589840332800,886,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,886,0,1
+1589840333004,726,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,725,0,1
+1589840333062,820,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,820,0,1
+1589840333161,724,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,724,0,0
+1589840333020,897,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,896,0,1
+1589840333287,769,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,769,0,1
+1589840333392,725,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,724,0,0
+1589840333538,617,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,616,0,1
+1589840333647,618,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,618,0,1
+1589840333706,642,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,642,0,1
+1589840333748,606,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,606,0,1
+1589840333604,756,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,756,0,1
+1589840333901,618,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,617,0,0
+1589840333934,623,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,622,0,1
+1589840334072,522,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,522,0,1
+1589840333901,724,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,724,0,0
+1589840334137,569,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,569,0,1
+1589840334173,571,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,571,0,2
+1589840334303,558,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,558,0,1
+1589840334359,562,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,562,0,1
+1589840334375,555,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,555,0,1
+1589840334366,564,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,564,0,0
+1589840334531,446,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,446,0,1
+1589840334569,496,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,496,0,1
+1589840334639,450,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,450,0,2
+1589840334607,572,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,572,0,1
+1589840334719,550,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,550,0,0
+1589840334756,659,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,659,0,1
+1589840334941,518,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,517,0,1
+1589840334935,561,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,561,0,0
+1589840334941,577,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,577,0,1
+1589840334874,645,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,645,0,1
+1589840334991,608,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,608,0,1
+1589840335192,455,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,455,0,1
+1589840335101,585,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,585,0,1
+1589840335283,464,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,464,0,1
+1589840335078,726,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,726,0,0
+1589840335428,430,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,430,0,1
+1589840335478,541,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,541,0,1
+1589840335515,528,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,528,0,2
+1589840335535,514,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,514,0,1
+1589840335537,613,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,613,0,1
+1589840335612,541,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,541,0,1
+1589840335661,504,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,504,0,0
+1589840335702,470,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,470,0,1
+1589840335759,473,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,473,0,1
+1589840335816,468,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,468,0,1
+1589840335870,474,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,474,0,1
+1589840336032,378,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,378,0,0
+1589840336062,477,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,477,0,1
+1589840336056,514,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,514,0,1
+1589840336168,438,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,438,0,1
+1589840336167,470,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,470,0,1
+1589840336180,488,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,488,0,1
+1589840336244,433,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,433,0,1
+1589840336188,516,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,516,0,1
+1589840336297,413,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,413,0,0
+1589840336353,587,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,587,0,1
+1589840336420,595,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,595,0,0
+1589840336583,563,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,563,0,1
+1589840336552,644,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,644,0,1
+1589840336655,569,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,569,0,1
+1589840336620,617,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,617,0,1
+1589840336683,622,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,621,0,1
+1589840336723,679,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,678,0,1
+1589840336692,719,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,719,0,1
+1589840336959,559,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,559,0,1
+1589840336721,842,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,842,0,1
+1589840337033,541,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,541,0,1
+1589840337168,579,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,579,0,1
+1589840337212,595,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,595,0,1
+1589840337250,647,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,647,0,1
+1589840337240,744,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,744,0,0
+1589840337320,670,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,670,0,1
+1589840337420,626,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,625,0,0
+1589840337580,522,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,522,0,1
+1589840337427,718,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,718,0,1
+1589840337533,688,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,688,0,1
+1589840337763,469,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,469,0,0
+1589840337589,660,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,660,0,2
+1589840337823,500,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,500,0,1
+1589840337910,606,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,606,0,1
+1589840337999,582,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,582,0,1
+1589840338004,606,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,606,0,1
+1589840338118,546,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,546,0,1
+1589840338058,706,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,705,0,1
+1589840338162,605,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,605,0,1
+1589840338234,588,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,588,0,2
+1589840338284,618,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,618,0,1
+1589840338246,689,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,688,0,1
+1589840338337,602,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,602,0,0
+1589840338531,619,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,619,0,0
+1589840338595,594,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,594,0,0
+1589840338626,605,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,605,0,1
+1589840338678,563,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,563,0,1
+1589840338783,509,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,509,0,1
+1589840338785,555,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,554,0,1
+1589840338837,520,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,520,0,1
+1589840338921,649,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,648,0,1
+1589840338952,670,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,670,0,0
+1589840338950,722,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,722,0,1
+1589840339163,634,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,634,0,1
+1589840339202,604,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,604,0,1
+1589840339253,583,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,583,0,1
+1589840339242,611,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,611,0,1
+1589840339304,645,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,645,0,1
+1589840339354,666,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,666,0,1
+1589840339371,653,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,653,0,1
+1589840339685,567,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,567,0,0
+1589840339636,637,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,636,0,1
+1589840339584,696,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,695,0,0
+1589840339818,546,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,546,0,1
+1589840339865,655,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,655,0,1
+1589840339808,730,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,730,0,1
+1589840339962,593,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,593,0,1
+1589840340037,569,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,568,0,1
+1589840339848,758,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,757,0,1
+1589840340036,696,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,696,0,1
+1589840340293,524,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,524,0,2
+1589840340298,533,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,533,0,2
+1589840340266,585,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,585,0,1
+1589840340380,644,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,644,0,1
+1589840340573,504,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,504,0,2
+1589840340618,480,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,480,0,0
+1589840340553,559,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,559,0,1
+1589840340540,619,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,619,0,1
+1589840340617,581,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,581,0,1
+1589840340826,416,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,416,0,1
+1589840340863,405,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,405,0,0
+1589840340742,610,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,609,0,0
+1589840340840,584,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,584,0,1
+1589840341037,587,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,587,0,1
+1589840341178,506,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,505,0,1
+1589840341215,670,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,670,0,1
+1589840341284,611,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,610,0,1
+1589840341111,799,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,798,0,1
+1589840341258,679,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,679,0,1
+1589840341362,646,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,645,0,1
+1589840341128,889,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,889,0,1
+1589840341438,619,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,619,0,1
+1589840341089,1134,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1134,0,1
+1589840341638,786,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,786,0,1
+1589840341701,763,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,763,0,0
+1589840341897,725,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,725,0,1
+1589840341926,808,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,807,0,1
+1589840342024,737,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,737,0,0
+1589840342032,759,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,759,0,1
+1589840341906,968,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,968,0,0
+1589840342071,843,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,843,0,1
+1589840342237,684,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,684,0,1
+1589840341950,1011,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1011,0,1
+1589840342437,642,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,641,0,0
+1589840342479,659,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,659,0,1
+1589840342637,602,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,602,0,1
+1589840342748,510,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,510,0,1
+1589840342775,531,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,531,0,2
+1589840342812,509,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,509,0,1
+1589840342929,520,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,520,0,1
+1589840342979,491,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,491,0,2
+1589840342888,595,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,595,0,0
+1589840342934,560,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,560,0,1
+1589840343150,500,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,500,0,2
+1589840343091,583,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,583,0,1
+1589840343249,545,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,545,0,1
+1589840343333,545,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,545,0,0
+1589840343319,581,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,581,0,1
+1589840343290,705,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,705,0,1
+1589840343458,597,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,597,0,1
+1589840343497,561,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,561,0,1
+1589840343481,587,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,586,0,1
+1589840343506,573,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,572,0,1
+1589840343663,565,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,565,0,1
+1589840343689,577,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,577,0,1
+1589840343887,486,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,486,0,1
+1589840343804,574,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,574,0,0
+1589840344007,392,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,392,0,0
+1589840344070,334,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,334,0,1
+1589840343913,590,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,590,0,1
+1589840344068,436,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,436,0,1
+1589840344092,444,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,444,0,2
+1589840344081,483,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,482,0,1
+1589840344236,459,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,458,0,1
+1589840344273,473,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,473,0,1
+1589840344410,382,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,381,0,1
+1589840344389,413,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,413,0,1
+1589840344413,485,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,485,0,1
+1589840344384,518,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,518,0,1
+1589840344514,409,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,409,0,1
+1589840344513,466,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,466,0,1
+1589840344575,426,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,426,0,1
+1589840344708,334,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,333,0,1
+1589840344547,529,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,529,0,2
+1589840344755,465,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,465,0,1
+1589840344811,437,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,437,0,1
+1589840344801,465,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,465,0,1
+1589840344935,391,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,391,0,1
+1589840344912,457,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,457,0,1
+1589840344990,428,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,428,0,0
+1589840344908,576,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,576,0,0
+1589840345061,456,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,456,0,1
+1589840345091,432,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,432,0,1
+1589840345013,585,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,585,0,1
+1589840345258,436,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,436,0,0
+1589840345233,466,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,466,0,0
+1589840345335,395,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,395,0,0
+1589840345377,353,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,352,0,1
+1589840345276,469,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,469,0,1
+1589840345427,381,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,381,0,0
+1589840345492,349,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,349,0,0
+1589840345527,328,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,328,0,1
+1589840345536,435,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,435,0,1
+1589840345605,399,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,399,0,1
+1589840345708,321,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,321,0,0
+1589840345740,380,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,380,0,0
+1589840345705,419,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,418,0,1
+1589840345740,422,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,422,0,0
+1589840345819,380,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,380,0,0
+1589840345850,362,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,362,0,1
+1589840345755,515,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,515,0,1
+1589840345865,455,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,455,0,1
+1589840345978,392,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,392,0,1
+1589840346012,400,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,400,0,1
+1589840346171,323,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,323,0,0
+1589840346036,467,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,467,0,1
+1589840346129,437,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,437,0,0
+1589840346225,358,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,357,0,0
+1589840346132,474,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,474,0,1
+1589840346281,325,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,325,0,0
+1589840346208,454,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,454,0,1
+1589840346379,377,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,377,0,0
+1589840346329,428,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,428,0,1
+1589840346421,360,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,360,0,1
+1589840346502,373,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,373,0,1
+1589840346512,388,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,388,0,1
+1589840346574,352,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,352,0,0
+1589840346591,353,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,353,0,1
+1589840346617,345,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,345,0,1
+1589840346617,347,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,347,0,1
+1589840346671,337,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,337,0,1
+1589840346791,359,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,358,0,1
+1589840346766,401,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,400,0,0
+1589840346883,337,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,337,0,1
+1589840346766,457,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,457,0,1
+1589840346908,343,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,343,0,1
+1589840346936,353,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,353,0,1
+1589840346973,326,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,326,0,1
+1589840346953,376,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,376,0,0
+1589840346974,359,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,358,0,1
+1589840347017,318,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,318,0,0
+1589840347174,356,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,356,0,1
+1589840347232,320,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,320,0,1
+1589840347261,381,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,381,0,1
+1589840347159,482,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,482,0,1
+1589840347229,441,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,441,0,0
+1589840347307,397,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,397,0,0
+1589840347298,436,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,436,0,1
+1589840347341,417,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,417,0,0
+1589840347344,456,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,456,0,1
+1589840347342,475,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,475,0,1
+1589840347561,491,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,491,0,1
+1589840347541,515,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,515,0,0
+1589840347652,425,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,425,0,0
+1589840347651,436,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,436,0,1
+1589840347682,439,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,439,0,2
+1589840347717,474,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,474,0,1
+1589840347748,491,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,490,0,1
+1589840347819,424,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,424,0,1
+1589840347832,435,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,435,0,1
+1589840347776,511,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,511,0,1
+1589840348060,444,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,444,0,1
+1589840348089,420,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,420,0,0
+1589840348063,546,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,546,0,1
+1589840348200,483,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,483,0,1
+1589840348134,565,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,565,0,1
+1589840348300,481,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,481,0,1
+1589840348098,690,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,690,0,1
+1589840348253,556,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,556,0,2
+1589840348277,542,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,541,0,1
+1589840348249,571,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,571,0,1
+1589840348514,457,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,457,0,1
+1589840348518,459,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,459,0,1
+1589840348621,414,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,414,0,0
+1589840348694,343,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,343,0,1
+1589840348711,472,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,472,0,1
+1589840348800,498,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,498,0,1
+1589840348835,497,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,496,0,1
+1589840348834,523,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,523,0,0
+1589840348791,569,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,569,0,1
+1589840348824,541,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,541,0,0
+1589840348990,471,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,471,0,1
+1589840349050,451,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,451,0,1
+1589840349051,452,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,452,0,1
+1589840349193,391,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,391,0,0
+1589840348982,609,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,609,0,1
+1589840349308,492,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,492,0,0
+1589840349344,510,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,510,0,0
+1589840349370,491,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,491,0,1
+1589840349380,547,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,547,0,1
+1589840349373,614,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,614,0,0
+1589840349472,550,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,547,0,0
+1589840349512,577,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,577,0,0
+1589840349513,587,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,587,0,1
+1589840349604,498,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,498,0,1
+1589840349598,572,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,572,0,1
+1589840349811,594,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,594,0,1
+1589840349868,562,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,562,0,0
+1589840349874,605,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,605,0,1
+1589840349947,596,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,596,0,1
+1589840350007,555,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,555,0,3
+1589840350040,614,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,614,0,4
+1589840350114,559,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,559,0,1
+1589840350102,610,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,610,0,1
+1589840350184,567,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,567,0,1
+1589840350111,766,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,766,0,1
+1589840350445,483,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,483,0,1
+1589840350418,521,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,521,0,1
+1589840350495,498,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,498,0,0
+1589840350556,465,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,465,0,1
+1589840350576,451,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,450,0,1
+1589840350687,521,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,521,0,1
+1589840350665,574,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,574,0,1
+1589840350768,491,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,491,0,0
+1589840350726,624,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,624,0,1
+1589840350890,485,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,485,0,1
+1589840351042,426,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,426,0,1
+1589840350941,542,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,542,0,1
+1589840350952,563,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,563,0,1
+1589840351036,549,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,549,0,1
+1589840351004,598,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,598,0,1
+1589840351251,443,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,443,0,1
+1589840351222,483,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,483,0,1
+1589840351389,433,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,433,0,1
+1589840351363,493,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,493,0,0
+1589840351272,609,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,609,0,0
+1589840351494,474,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,474,0,0
+1589840351478,520,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,519,0,1
+1589840351528,501,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,501,0,2
+1589840351598,458,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,458,0,1
+1589840351613,446,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,446,0,1
+1589840351705,470,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,470,0,1
+1589840351834,414,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,414,0,0
+1589840351717,564,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,564,0,1
+1589840351869,532,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,532,0,1
+1589840351898,523,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,523,0,0
+1589840351979,573,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,573,0,1
+1589840352042,531,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,531,0,1
+1589840352072,538,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,538,0,1
+1589840352069,568,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,567,0,1
+1589840352012,701,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,701,0,0
+1589840352265,561,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,561,0,1
+1589840352296,595,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,595,0,0
+1589840352191,722,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,722,0,1
+1589840352436,597,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,597,0,1
+1589840352415,646,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,646,0,1
+1589840352591,531,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,531,0,1
+1589840352571,620,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,620,0,1
+1589840352624,582,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,582,0,1
+1589840352650,581,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,581,0,2
+1589840352731,584,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,584,0,1
+1589840352839,599,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,599,0,1
+1589840353053,387,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,387,0,2
+1589840352907,558,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,558,0,1
+1589840352930,544,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,544,0,2
+1589840353078,433,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,433,0,1
+1589840353134,402,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,402,0,1
+1589840353219,404,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,403,0,2
+1589840353202,486,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,486,0,1
+1589840353245,495,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,495,0,2
+1589840353324,521,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,521,0,1
+1589840353451,476,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,476,0,1
+1589840353450,496,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,496,0,1
+1589840353486,526,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,526,0,2
+1589840353479,536,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,536,0,0
+1589840353547,498,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,498,0,1
+1589840353523,584,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,584,0,1
+1589840353752,413,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,413,0,1
+1589840353631,561,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,560,0,1
+1589840353700,501,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,501,0,1
+1589840353857,480,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,480,0,1
+1589840353958,414,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,414,0,1
+1589840354023,362,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,362,0,1
+1589840354026,394,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,394,0,1
+1589840354058,398,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,398,0,1
+1589840353939,606,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,606,0,0
+1589840354116,466,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,466,0,0
+1589840354176,453,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,453,0,1
+1589840354219,484,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,484,0,1
+1589840354207,624,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,624,0,3
+1589840354346,620,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,620,0,1
+1589840354386,647,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,647,0,2
+1589840354397,638,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,638,0,1
+1589840354470,639,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,639,0,0
+1589840354433,728,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,728,0,1
+1589840354638,601,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,600,0,1
+1589840354595,648,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,648,0,2
+1589840354561,692,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,692,0,1
+1589840354716,600,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,600,0,1
+1589840354842,512,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,511,0,0
+1589840355048,443,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,443,0,1
+1589840355120,396,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,395,0,1
+1589840354983,544,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,544,0,2
+1589840355048,589,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,589,0,1
+1589840355172,503,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,503,0,1
+1589840355254,567,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,567,0,3
+1589840355272,550,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,550,0,1
+1589840355258,616,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,616,0,1
+1589840355328,558,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,558,0,0
+1589840355365,532,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,532,0,0
+1589840355501,684,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,684,0,1
+1589840355530,681,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,680,0,2
+1589840355836,525,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,525,0,0
+1589840355693,668,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,668,0,0
+1589840355545,811,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,811,0,0
+1589840355836,527,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,527,0,0
+1589840355890,471,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,471,0,1
+1589840355651,705,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,704,0,1
+1589840355913,494,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,494,0,1
+1589840355902,505,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,505,0,1
+1589840356195,374,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,374,0,1
+1589840356376,369,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,369,0,2
+1589840356374,382,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,382,0,4
+1589840356383,474,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,474,0,1
+1589840356382,507,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,507,0,1
+1589840356364,528,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,528,0,2
+1589840356387,532,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,532,0,1
+1589840356421,538,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,538,0,1
+1589840356577,389,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,389,0,1
+1589840356421,603,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,603,0,1
+1589840356379,667,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,667,0,2
+1589840356755,498,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,498,0,1
+1589840356866,403,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,403,0,0
+1589840356903,409,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,408,0,1
+1589840356899,417,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,416,0,1
+1589840356930,398,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,398,0,1
+1589840356766,620,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,620,0,1
+1589840356970,433,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,433,0,1
+1589840356976,501,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,501,0,0
+1589840357058,440,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,440,0,1
+1589840357032,484,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,484,0,1
+1589840357329,369,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,369,0,0
+1589840357280,481,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,481,0,1
+1589840357324,442,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,442,0,1
+1589840357396,406,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,406,0,0
+1589840357340,468,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,467,0,1
+1589840357412,400,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,400,0,1
+1589840357488,378,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,378,0,1
+1589840357263,626,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,626,0,1
+1589840357507,390,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,390,0,1
+1589840357529,482,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,482,0,1
+1589840357707,474,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,474,0,1
+1589840357776,437,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,437,0,1
+1589840357900,435,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,435,0,0
+1589840357822,529,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,529,0,1
+1589840357813,563,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,563,0,0
+1589840357876,508,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,508,0,1
+1589840357909,491,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,491,0,0
+1589840357818,588,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,588,0,0
+1589840358025,384,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,384,0,1
+1589840357773,642,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,642,0,1
+1589840358195,449,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,449,0,1
+1589840358224,470,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,470,0,1
+1589840358386,386,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,386,0,0
+1589840358346,437,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,437,0,1
+1589840358395,399,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,399,0,0
+1589840358410,415,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,415,0,1
+1589840358415,447,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,447,0,2
+1589840358427,468,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,468,0,1
+1589840358361,556,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,556,0,0
+1589840358420,513,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,513,0,1
+1589840358651,520,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,519,0,1
+1589840358783,403,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,403,0,1
+1589840358793,507,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,507,0,1
+1589840358702,600,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,600,0,1
+1589840358874,467,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,467,0,0
+1589840358805,555,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,555,0,1
+1589840358909,563,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,563,0,1
+1589840358834,638,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,638,0,0
+1589840358944,609,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,609,0,0
+1589840359184,435,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,435,0,1
+1589840358928,756,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,756,0,0
+1589840359312,461,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,461,0,1
+1589840359312,461,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,461,0,1
+1589840359196,582,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,582,0,0
+1589840359375,484,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,484,0,1
+1589840359353,514,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,514,0,1
+1589840359484,476,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,476,0,1
+1589840359484,477,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,477,0,1
+1589840359563,446,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,446,0,0
+1589840359629,439,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,439,0,1
+1589840359694,389,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,389,0,0
+1589840359784,415,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,415,0,0
+1589840359788,488,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,487,0,0
+1589840359869,444,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,444,0,0
+1589840359784,533,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,533,0,0
+1589840359877,541,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,541,0,1
+1589840359973,449,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,449,0,1
+1589840359973,465,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,465,0,1
+1589840360020,431,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,431,0,1
+1589840360082,438,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,437,0,1
+1589840360100,463,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,462,0,1
+1589840360213,484,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,484,0,0
+1589840360287,514,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,514,0,0
+1589840360331,494,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,494,0,0
+1589840360453,386,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,386,0,1
+1589840360464,387,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,387,0,1
+1589840360428,492,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,492,0,1
+1589840360327,652,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,651,0,1
+1589840360433,552,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,552,0,0
+1589840360529,490,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,490,0,1
+1589840360573,469,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,469,0,1
+1589840360707,582,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,582,0,1
+1589840360835,500,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,500,0,1
+1589840360811,558,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,558,0,1
+1589840360855,539,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,539,0,1
+1589840360931,471,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,471,0,1
+1589840361002,425,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,425,0,1
+1589840360865,569,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,569,0,1
+1589840361059,386,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,386,0,1
+1589840360998,457,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,457,0,1
+1589840361039,490,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,490,0,1
+1589840361347,354,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,354,0,1
+1589840361383,421,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,421,0,1
+1589840361414,396,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,396,0,1
+1589840361303,528,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,528,0,1
+1589840361408,508,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,508,0,1
+1589840361546,376,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,376,0,0
+1589840361447,478,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,478,0,1
+1589840361472,465,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,465,0,0
+1589840361453,572,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,572,0,1
+1589840361461,614,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,614,0,2
+1589840361716,459,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,459,0,1
+1589840361820,457,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,457,0,1
+1589840361843,494,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,494,0,1
+1589840361931,461,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,461,0,0
+1589840361938,471,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,471,0,1
+1589840361938,491,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,491,0,1
+1589840361817,631,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,631,0,0
+1589840361949,579,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,579,0,1
+1589840362034,497,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,497,0,0
+1589840362083,484,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,484,0,0
+1589840362289,468,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,468,0,1
+1589840362183,581,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,581,0,1
+1589840362346,453,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,453,0,0
+1589840362401,419,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,419,0,0
+1589840362442,396,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,396,0,1
+1589840362423,472,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,472,0,1
+1589840362462,450,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,450,0,1
+1589840362538,478,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,478,0,0
+1589840362577,467,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,467,0,1
+1589840362539,528,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,528,0,1
+1589840362775,362,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,362,0,1
+1589840362766,460,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,460,0,0
+1589840362810,444,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,444,0,1
+1589840362832,428,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,428,0,0
+1589840362903,434,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,434,0,0
+1589840362848,547,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,547,0,1
+1589840362920,480,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,480,0,1
+1589840363057,415,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,415,0,1
+1589840363081,397,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,397,0,0
+1589840363148,342,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,342,0,0
+1589840363027,558,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,558,0,1
+1589840363235,394,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,394,0,1
+1589840363265,554,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,554,0,1
+1589840363269,567,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,567,0,1
+1589840363347,563,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,562,0,1
+1589840363499,507,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,507,0,1
+1589840363404,638,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,638,0,0
+1589840363481,565,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,565,0,1
+1589840363410,644,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,644,0,1
+1589840363487,596,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,596,0,0
+1589840363597,619,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,619,0,1
+1589840363643,580,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,580,0,1
+1589840363854,534,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,534,0,3
+1589840363929,509,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,509,0,2
+1589840363843,679,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,679,0,1
+1589840364064,519,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,518,0,1
+1589840364022,566,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,566,0,1
+1589840364076,591,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,591,0,1
+1589840364065,674,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,674,0,0
+1589840364228,558,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,558,0,0
+1589840364098,718,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,718,0,2
+1589840364236,616,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,616,0,1
+1589840364398,542,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,542,0,1
+1589840364530,606,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,606,0,1
+1589840364528,621,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,621,0,2
+1589840364592,659,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,659,0,1
+1589840364598,740,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,740,0,0
+1589840364751,610,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,609,0,1
+1589840364675,711,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,711,0,1
+1589840364799,611,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,611,0,0
+1589840364875,538,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,538,0,0
+1589840364831,626,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,626,0,0
+1589840364951,583,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,583,0,1
+1589840365147,438,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,438,0,1
+1589840365160,443,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,443,0,1
+1589840365261,433,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,433,0,0
+1589840365346,387,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,387,0,0
+1589840365398,475,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,475,0,0
+1589840365373,507,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,507,0,1
+1589840365424,495,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,495,0,1
+1589840365544,380,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,380,0,0
+1589840365466,483,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,483,0,1
+1589840365594,368,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,368,0,1
+1589840365425,597,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,597,0,0
+1589840365616,450,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,450,0,0
+1589840365740,397,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,397,0,1
+1589840365702,598,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,598,0,0
+1589840365884,502,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,502,0,0
+1589840365890,527,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,527,0,0
+1589840365936,495,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,495,0,0
+1589840365972,461,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,461,0,1
+1589840366031,431,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,431,0,0
+1589840365960,520,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,520,0,1
+1589840366147,375,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,375,0,1
+1589840365932,651,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,651,0,0
+1589840366074,549,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,549,0,0
+1589840366310,453,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,453,0,1
+1589840366396,512,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,512,0,0
+1589840366431,487,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,487,0,0
+1589840366492,518,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,517,0,1
+1589840366440,580,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,580,0,1
+1589840366469,624,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,624,0,1
+1589840366591,514,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,514,0,0
+1589840366533,576,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,576,0,1
+1589840366634,519,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,519,0,0
+1589840366440,746,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,746,0,1
+1589840366778,507,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,507,0,1
+1589840366931,493,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,493,0,1
+1589840366927,518,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,517,0,0
+1589840367033,438,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,438,0,1
+1589840367103,423,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,422,0,1
+1589840367114,442,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,442,0,1
+1589840367026,544,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,544,0,2
+1589840367118,486,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,486,0,1
+1589840367163,448,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,448,0,0
+1589840367198,417,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,417,0,1
+1589840367292,409,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,409,0,0
+1589840367582,342,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,342,0,0
+1589840367482,449,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,449,0,0
+1589840367433,503,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,503,0,1
+1589840367452,526,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,526,0,0
+1589840367565,421,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,421,0,1
+1589840367613,373,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,373,0,1
+1589840367534,457,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,457,0,0
+1589840367622,378,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,378,0,0
+1589840367625,388,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,388,0,1
+1589840367712,385,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,385,0,1
+1589840367940,342,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,342,0,1
+1589840367947,359,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,359,0,0
+1589840367936,395,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,395,0,1
+1589840367996,384,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,384,0,1
+1589840368010,410,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,410,0,0
+1589840367996,424,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,424,0,1
+1589840368025,395,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,395,0,1
+1589840367990,443,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,443,0,0
+1589840368105,408,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,407,0,0
+1589840368001,611,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,611,0,1
+1589840368319,501,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,501,0,1
+1589840368341,493,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,493,0,0
+1589840368290,569,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,569,0,0
+1589840368436,495,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,495,0,2
+1589840368435,507,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,507,0,1
+1589840368523,457,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,457,0,0
+1589840368449,537,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,537,0,1
+1589840368622,426,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,426,0,0
+1589840368435,639,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,639,0,1
+1589840368428,734,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,733,0,2
+1589840368844,568,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,568,0,1
+1589840368831,598,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,598,0,1
+1589840368952,558,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,558,0,1
+1589840368996,533,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,533,0,1
+1589840369057,517,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,517,0,0
+1589840368871,715,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,715,0,0
+1589840369085,513,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,513,0,1
+1589840368992,671,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,671,0,1
+1589840368939,741,Drink,201,Created,Marka Test 1-5,text,true,,616,414,10,10,http://localhost:4000/api/transactions,741,0,1
+1589840369172,744,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,744,0,1
+1589840369425,727,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,727,0,1
+1589840369443,713,Drink,201,Created,Marka Test 1-6,text,true,,616,414,10,10,http://localhost:4000/api/transactions,713,0,0
+1589840369540,667,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,667,0,1
+1589840369584,638,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,638,0,1
+1589840369596,730,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,730,0,0
+1589840369524,831,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,831,0,1
+1589840369611,753,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,753,0,1
+1589840369675,699,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,698,0,1
+1589840369690,773,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,773,0,1
+1589840369925,609,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,609,0,1
+1589840370233,589,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,589,0,1
+1589840370167,710,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,710,0,0
+1589840370167,718,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,718,0,0
+1589840370366,568,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,567,0,1
+1589840370341,595,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,595,0,1
+1589840370473,524,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,524,0,1
+1589840370381,616,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,616,0,1
+1589840370221,785,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,785,0,1
+1589840370387,642,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,642,0,0
+1589840370547,569,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,569,0,1
+1589840370889,684,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,684,0,1
+1589840370945,654,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,654,0,0
+1589840370895,710,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,710,0,1
+1589840370947,666,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,666,0,1
+1589840371010,682,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,682,0,0
+1589840371010,740,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,740,0,1
+1589840371019,738,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,738,0,1
+1589840370832,931,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,931,0,0
+1589840371126,833,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,833,0,1
+1589840371045,919,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,919,0,1
+1589840371618,611,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,611,0,0
+1589840371612,634,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,634,0,1
+1589840371766,523,Drink,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,522,0,1
+1589840371771,562,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,562,0,1
+1589840371586,862,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,862,0,1
+1589840371626,844,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,844,0,0
+1589840371776,819,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,819,0,1
+1589840372299,278,Get Gifts,200,OK,Marka Test 1-5,text,true,,8312,330,10,10,http://localhost:4000/api/codes,278,0,1
+1589840371707,972,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,972,0,1
+1589840371978,789,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,789,0,0
+1589840371972,882,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,882,0,1
+1589840372259,781,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,781,0,0
+1589840372644,438,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,438,0,1
+1589840372246,881,Drink,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,881,0,0
+1589840372345,791,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,791,0,1
+1589840372460,731,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,731,0,0
+1589840372485,788,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,788,0,0
+1589840373141,265,Get Gifts,200,OK,Marka Test 1-6,text,true,,8312,330,10,10,http://localhost:4000/api/codes,264,0,1
+1589840372627,885,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,885,0,1
+1589840372696,830,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,830,0,1
+1589840372783,887,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,887,0,0
+1589840372869,969,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,969,0,0
+1589840373110,916,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,916,0,2
+1589840373420,718,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,717,0,1
+1589840373057,1320,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1320,0,0
+1589840373526,871,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,871,0,1
+1589840373153,1275,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1275,0,2
+1589840373216,1225,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1225,0,1
+1589840373288,1226,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1225,0,0
+1589840374051,496,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,496,0,1
+1589840373542,1029,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1029,0,1
+1589840373688,908,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,908,0,1
+1589840373858,856,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,856,0,0
+1589840374156,609,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,609,0,0
+1589840374564,594,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,594,0,1
+1589840374393,951,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,951,0,1
+1589840374783,594,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,593,0,1
+1589840374613,846,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,846,0,1
+1589840374414,1083,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1083,0,0
+1589840374529,985,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,985,0,1
+1589840374731,799,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,799,0,1
+1589840374460,1104,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1104,0,1
+1589840374588,1020,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1020,0,1
+1589840374447,1207,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1207,0,1
+1589840375172,594,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,594,0,1
+1589840375396,496,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,496,0,1
+1589840375359,725,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,724,0,1
+1589840375783,527,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,527,0,1
+1589840375907,451,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,451,0,1
+1589840375537,920,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,920,0,1
+1589840375625,844,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,844,0,1
+1589840375475,1065,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1065,0,1
+1589840375584,1056,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1056,0,1
+1589840375549,1113,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1113,0,2
+1589840375518,1190,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1190,0,5
+1589840375671,1084,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1084,0,0
+1589840376331,610,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,610,0,1
+1589840376380,611,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,611,0,0
+1589840376099,912,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,912,0,0
+1589840376957,456,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,456,0,0
+1589840377011,422,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,422,0,1
+1589840376476,1013,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1013,0,1
+1589840376560,949,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,949,0,1
+1589840376487,1094,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1094,0,2
+1589840376680,1121,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1121,0,1
+1589840376660,1156,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1156,0,1
+1589840376725,1103,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1103,0,1
+1589840377029,815,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,815,0,0
+1589840376773,1091,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1091,0,1
+1589840377431,720,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,720,0,1
+1589840377453,707,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,707,0,1
+1589840377600,933,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,933,0,2
+1589840377530,1051,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1051,0,0
+1589840377837,821,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,820,0,1
+1589840378182,640,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,640,0,2
+1589840377823,1004,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1004,0,2
+1589840377509,1366,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1366,0,1
+1589840378172,777,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,777,0,3
+1589840377849,1110,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1110,0,1
+1589840377885,1194,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1194,0,1
+1589840377870,1317,Drink,201,Created,Marka Test 1-2,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1316,0,1
+1589840378844,688,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,688,0,1
+1589840378973,595,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,595,0,2
+1589840378551,1073,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1073,0,1
+1589840378601,1126,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1126,0,1
+1589840378847,1019,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1019,0,1
+1589840378895,1055,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1055,0,2
+1589840378677,1387,Drink,201,Created,Marka Test 1-1,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1387,0,0
+1589840378978,1090,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1090,0,1
+1589840379553,714,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,714,0,1
+1589840379099,1296,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1296,0,1
+1589840379208,1208,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1208,0,0
+1589840379586,853,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,853,0,1
+1589840379748,1065,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1065,0,1
+1589840379642,1176,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1176,0,0
+1589840380288,599,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,599,0,1
+1589840379891,1043,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1043,0,1
+1589840380459,768,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,767,0,1
+1589840379974,1285,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1285,0,1
+1589840380087,1222,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1222,0,1
+1589840380084,1313,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1313,0,1
+1589840380436,1239,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1239,0,1
+1589840380904,946,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,945,0,1
+1589840380418,1532,Drink,201,Created,Marka Test 1-8,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1532,0,1
+1589840380839,1297,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1297,0,0
+1589840380954,1387,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1387,0,1
+1589840381251,1103,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1103,0,2
+1589840380833,1540,Drink,201,Created,Marka Test 1-3,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1540,0,1
+1589840381285,1226,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1226,0,3
+1589840381946,773,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,773,0,1
+1589840381426,1319,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1319,0,1
+1589840381698,1130,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1130,0,0
+1589840381383,1615,Drink,201,Created,Marka Test 1-10,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1615,0,2
+1589840381966,1101,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1101,0,1
+1589840382372,778,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,778,0,0
+1589840382393,1025,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1025,0,1
+1589840382158,1311,Drink,201,Created,Marka Test 1-7,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1311,0,1
+1589840382741,808,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,808,0,0
+1589840382527,1147,Drink,201,Created,Marka Test 1-4,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1146,0,1
+1589840382361,1323,Drink,201,Created,Marka Test 1-9,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1323,0,1
+1589840383175,647,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,647,0,1
+1589840382767,1242,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1242,0,0
+1589840383085,1201,Drink,201,Created,Marka Test 1-8,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1201,0,1
+1589840382851,1449,Drink,201,Created,Marka Test 1-2,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1449,0,1
+1589840383018,1333,Drink,201,Created,Marka Test 1-10,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1332,0,1
+1589840383570,788,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,788,0,1
+1589840383436,1065,Drink,201,Created,Marka Test 1-3,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1065,0,1
+1589840383487,1084,Drink,201,Created,Marka Test 1-7,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1084,0,1
+1589840383841,865,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,865,0,1
+1589840383701,1237,Drink,201,Created,Marka Test 1-9,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1236,0,1
+1589840384030,1018,Drink,201,Created,Marka Test 1-1,text,true,,617,414,10,10,http://localhost:4000/api/transactions,1018,0,2
+1589840383691,1387,Drink,201,Created,Marka Test 1-4,text,true,,616,414,10,10,http://localhost:4000/api/transactions,1387,0,1
+1589840384379,780,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,10,10,http://localhost:4000/api/transactions,780,0,0
+1589840384726,624,Use Gift,201,Created,Marka Test 1-5,text,true,,617,414,10,10,http://localhost:4000/api/transactions,624,0,1
+1589840384304,1060,Drink,201,Created,Marka Test 1-8,text,true,,617,414,9,9,http://localhost:4000/api/transactions,1060,0,1
+1589840384594,1006,Drink,201,Created,Marka Test 1-7,text,true,,617,414,9,9,http://localhost:4000/api/transactions,1006,0,1
+1589840384526,1087,Drink,201,Created,Marka Test 1-3,text,true,,617,414,9,9,http://localhost:4000/api/transactions,1087,0,1
+1589840384370,1273,Drink,201,Created,Marka Test 1-10,text,true,,617,414,9,9,http://localhost:4000/api/transactions,1273,0,1
+1589840384316,1384,Drink,201,Created,Marka Test 1-2,text,true,,616,414,9,9,http://localhost:4000/api/transactions,1384,0,0
+1589840385186,582,Use Gift,201,Created,Marka Test 1-6,text,true,,617,414,9,9,http://localhost:4000/api/transactions,581,0,0
+1589840384953,827,Drink,201,Created,Marka Test 1-9,text,true,,617,414,9,9,http://localhost:4000/api/transactions,826,0,1
+1589840385103,1123,Drink,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1123,0,1
+1589840385064,1216,Drink,201,Created,Marka Test 1-1,text,true,,616,414,8,8,http://localhost:4000/api/transactions,1216,0,1
+1589840385382,957,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,957,0,1
+1589840385635,1030,Drink,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1030,0,0
+1589840385621,1071,Drink,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1071,0,2
+1589840385668,1089,Drink,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1088,0,1
+1589840385798,1051,Drink,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1051,0,1
+1589840385721,1233,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1233,0,1
+1589840386302,861,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,861,0,1
+1589840386246,1115,Drink,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1115,0,0
+1589840386360,1196,Drink,201,Created,Marka Test 1-8,text,true,,616,414,8,8,http://localhost:4000/api/transactions,1196,0,1
+1589840386685,948,Drink,201,Created,Marka Test 1-3,text,true,,616,414,8,8,http://localhost:4000/api/transactions,947,0,1
+1589840386779,911,Drink,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,911,0,1
+1589840386712,994,Drink,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,994,0,1
+1589840386873,843,Drink,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,843,0,1
+1589840386969,753,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,753,0,1
+1589840387728,249,Get Gifts,200,OK,Marka Test 1-9,text,true,,8312,330,8,8,http://localhost:4000/api/codes,249,0,1
+1589840387179,933,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,933,0,1
+1589840387650,774,Drink,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,774,0,1
+1589840387377,1087,Drink,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1087,0,1
+1589840387998,523,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,523,0,1
+1589840387575,975,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,975,0,1
+1589840387743,944,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,944,0,1
+1589840387707,1137,Drink,201,Created,Marka Test 1-10,text,true,,616,414,8,8,http://localhost:4000/api/transactions,1137,0,1
+1589840387725,1125,Drink,201,Created,Marka Test 1-7,text,true,,616,414,8,8,http://localhost:4000/api/transactions,1125,0,1
+1589840388134,946,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,945,0,1
+1589840388543,580,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,580,0,1
+1589840388443,865,Drink,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,865,0,1
+1589840388481,839,Drink,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,839,0,1
+1589840388570,892,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,892,0,1
+1589840388703,833,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,833,0,0
+1589840389142,498,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,498,0,1
+1589840389331,372,Get Gifts,200,OK,Marka Test 1-4,text,true,,8312,330,8,8,http://localhost:4000/api/codes,372,0,1
+1589840388868,922,Drink,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,922,0,1
+1589840388863,985,Drink,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,985,0,1
+1589840389097,806,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,806,0,1
+1589840389658,425,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,424,0,1
+1589840389718,395,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,395,0,0
+1589840389337,860,Drink,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,860,0,1
+1589840389480,782,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,782,0,1
+1589840390097,484,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,484,0,1
+1589840389553,1092,Drink,201,Created,Marka Test 1-2,text,true,,616,414,8,8,http://localhost:4000/api/transactions,1091,0,1
+1589840389805,860,Drink,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,860,0,1
+1589840390133,549,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,549,0,0
+1589840389862,893,Drink,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,893,0,1
+1589840389920,955,Drink,201,Created,Marka Test 1-1,text,true,,616,414,8,8,http://localhost:4000/api/transactions,955,0,1
+1589840390213,979,Drink,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,979,0,3
+1589840390599,657,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,657,0,1
+1589840390282,1025,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1025,0,0
+1589840390664,677,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,677,0,1
+1589840390702,796,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,796,0,0
+1589840390686,924,Drink,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,924,0,1
+1589840391204,470,Get Gifts,200,OK,Marka Test 1-3,text,true,,8312,330,8,8,http://localhost:4000/api/codes,470,0,0
+1589840390776,1021,Drink,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1021,0,1
+1589840390892,923,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,923,0,1
+1589840391275,664,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,664,0,1
+1589840391517,498,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,498,0,1
+1589840391360,919,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,919,0,1
+1589840391695,600,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,600,0,0
+1589840391626,712,Drink,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,712,0,0
+1589840391325,1076,Drink,201,Created,Marka Test 1-8,text,true,,616,414,8,8,http://localhost:4000/api/transactions,1076,0,0
+1589840392032,499,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,499,0,1
+1589840391958,573,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,573,0,0
+1589840392350,341,Get Gifts,200,OK,Marka Test 1-7,text,true,,8312,330,8,8,http://localhost:4000/api/codes,341,0,1
+1589840391817,909,Drink,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,909,0,1
+1589840391831,918,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,918,0,0
+1589840392312,562,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,562,0,1
+1589840392549,466,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,466,0,0
+1589840392549,512,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,512,0,0
+1589840392740,493,Get Gifts,200,OK,Marka Test 1-10,text,true,,8312,330,8,8,http://localhost:4000/api/codes,493,0,0
+1589840392301,939,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,939,0,0
+1589840392415,902,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,902,0,1
+1589840392703,621,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,620,0,1
+1589840392892,559,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,559,0,1
+1589840393032,626,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,626,0,1
+1589840393082,634,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,634,0,1
+1589840392765,1009,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1009,0,1
+1589840393250,560,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,560,0,1
+1589840393344,683,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,683,0,0
+1589840393473,659,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,659,0,1
+1589840393259,914,Drink,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,913,0,0
+1589840393736,570,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,570,0,1
+1589840393684,690,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,690,0,1
+1589840393829,644,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,644,0,1
+1589840393336,1242,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1242,0,1
+1589840394185,619,Get Gifts,200,OK,Marka Test 1-2,text,true,,8312,330,8,8,http://localhost:4000/api/codes,619,0,1
+1589840394045,862,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,862,0,1
+1589840394151,815,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,815,0,1
+1589840394326,728,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,728,0,1
+1589840393793,1321,Drink,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1321,0,1
+1589840394395,784,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,784,0,1
+1589840395130,269,Get Gifts,200,OK,Marka Test 1-1,text,true,,8312,330,8,8,http://localhost:4000/api/codes,269,0,1
+1589840394577,911,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,911,0,0
+1589840394927,567,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,567,0,1
+1589840394823,683,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,683,0,1
+1589840394987,612,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,612,0,1
+1589840395076,730,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,730,0,1
+1589840395199,654,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,654,0,1
+1589840395414,526,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,526,0,1
+1589840394599,1349,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,1349,0,1
+1589840395524,631,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,631,0,1
+1589840395512,703,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,703,0,1
+1589840395508,721,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,721,0,1
+1589840395822,417,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,417,0,1
+1589840395618,644,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,644,0,1
+1589840395873,582,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,582,0,1
+1589840395957,570,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,570,0,1
+1589840396170,528,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,528,0,1
+1589840396232,524,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,524,0,1
+1589840396244,578,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,578,0,1
+1589840396281,644,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,644,0,1
+1589840395964,974,Drink,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,974,0,0
+1589840396253,702,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,702,0,1
+1589840396473,657,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,657,0,0
+1589840396544,615,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,615,0,1
+1589840396715,580,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,580,0,1
+1589840396777,524,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,523,0,0
+1589840396840,498,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,498,0,0
+1589840396948,520,Get Gifts,200,OK,Marka Test 1-8,text,true,,8312,330,8,8,http://localhost:4000/api/codes,520,0,1
+1589840396943,656,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,656,0,1
+1589840396974,634,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,634,0,1
+1589840397147,507,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,507,0,1
+1589840397176,504,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,504,0,1
+1589840397356,494,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,494,0,1
+1589840397316,537,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,537,0,1
+1589840397311,590,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,590,0,1
+1589840397480,483,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,483,0,0
+1589840397616,580,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,580,0,1
+1589840397633,680,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,680,0,1
+1589840397673,648,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,648,0,2
+1589840397699,627,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,627,0,1
+1589840397869,519,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,8,8,http://localhost:4000/api/transactions,519,0,1
+1589840397920,616,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,8,8,http://localhost:4000/api/transactions,616,0,1
+1589840397869,670,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,8,8,http://localhost:4000/api/transactions,670,0,1
+1589840397981,608,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,8,8,http://localhost:4000/api/transactions,608,0,1
+1589840398218,484,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,8,8,http://localhost:4000/api/transactions,484,0,1
+1589840398330,491,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,8,8,http://localhost:4000/api/transactions,491,0,1
+1589840398342,504,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,8,8,http://localhost:4000/api/transactions,504,0,1
+1589840398337,517,Use Gift,201,Created,Marka Test 1-9,text,true,,617,414,8,8,http://localhost:4000/api/transactions,517,0,1
+1589840398405,466,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,7,7,http://localhost:4000/api/transactions,466,0,1
+1589840398553,396,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,7,7,http://localhost:4000/api/transactions,396,0,0
+1589840398551,443,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,7,7,http://localhost:4000/api/transactions,443,0,1
+1589840398608,442,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,7,7,http://localhost:4000/api/transactions,442,0,1
+1589840398714,357,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,7,7,http://localhost:4000/api/transactions,357,0,0
+1589840398833,373,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,7,7,http://localhost:4000/api/transactions,373,0,1
+1589840398863,475,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,7,7,http://localhost:4000/api/transactions,475,0,1
+1589840398890,503,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,7,7,http://localhost:4000/api/transactions,503,0,1
+1589840398965,437,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,7,7,http://localhost:4000/api/transactions,437,0,1
+1589840399014,402,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,7,7,http://localhost:4000/api/transactions,402,0,0
+1589840399068,367,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,7,7,http://localhost:4000/api/transactions,365,0,1
+1589840399091,435,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,7,7,http://localhost:4000/api/transactions,435,0,1
+1589840399225,410,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,7,7,http://localhost:4000/api/transactions,410,0,1
+1589840399357,432,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,7,7,http://localhost:4000/api/transactions,432,0,0
+1589840399418,416,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,7,7,http://localhost:4000/api/transactions,416,0,2
+1589840399439,469,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,7,7,http://localhost:4000/api/transactions,469,0,4
+1589840399422,540,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,7,7,http://localhost:4000/api/transactions,540,0,2
+1589840399454,520,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,7,7,http://localhost:4000/api/transactions,520,0,0
+1589840399543,509,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,7,7,http://localhost:4000/api/transactions,509,0,1
+1589840399654,567,Use Gift,201,Created,Marka Test 1-4,text,true,,617,414,7,7,http://localhost:4000/api/transactions,567,0,1
+1589840399804,527,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,6,6,http://localhost:4000/api/transactions,526,0,0
+1589840399849,582,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,6,6,http://localhost:4000/api/transactions,581,0,1
+1589840399928,592,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,6,6,http://localhost:4000/api/transactions,592,0,1
+1589840399992,598,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,6,6,http://localhost:4000/api/transactions,598,0,1
+1589840399980,629,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,6,6,http://localhost:4000/api/transactions,629,0,0
+1589840400073,590,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,6,6,http://localhost:4000/api/transactions,590,0,1
+1589840400350,379,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,6,6,http://localhost:4000/api/transactions,379,0,1
+1589840400449,370,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,6,6,http://localhost:4000/api/transactions,369,0,1
+1589840400537,384,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,6,6,http://localhost:4000/api/transactions,384,0,1
+1589840400606,323,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,6,6,http://localhost:4000/api/transactions,322,0,1
+1589840400625,376,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,6,6,http://localhost:4000/api/transactions,376,0,1
+1589840400682,445,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,6,6,http://localhost:4000/api/transactions,445,0,0
+1589840400746,384,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,6,6,http://localhost:4000/api/transactions,384,0,1
+1589840400832,447,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,6,6,http://localhost:4000/api/transactions,446,0,0
+1589840400937,489,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,6,6,http://localhost:4000/api/transactions,489,0,2
+1589840400946,488,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,6,6,http://localhost:4000/api/transactions,488,0,0
+1589840401017,453,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,6,6,http://localhost:4000/api/transactions,453,0,1
+1589840401145,436,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,6,6,http://localhost:4000/api/transactions,436,0,0
+1589840401143,485,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,6,6,http://localhost:4000/api/transactions,484,0,1
+1589840401296,452,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,6,6,http://localhost:4000/api/transactions,451,0,1
+1589840401450,396,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,6,6,http://localhost:4000/api/transactions,396,0,1
+1589840401442,404,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,6,6,http://localhost:4000/api/transactions,404,0,1
+1589840401491,383,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,6,6,http://localhost:4000/api/transactions,383,0,1
+1589840401598,317,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,6,6,http://localhost:4000/api/transactions,317,0,1
+1589840401645,296,Use Gift,201,Created,Marka Test 1-3,text,true,,617,414,6,6,http://localhost:4000/api/transactions,296,0,1
+1589840401766,308,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,5,5,http://localhost:4000/api/transactions,308,0,1
+1589840401868,317,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,5,5,http://localhost:4000/api/transactions,317,0,3
+1589840401867,434,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,5,5,http://localhost:4000/api/transactions,434,0,1
+1589840401933,392,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,5,5,http://localhost:4000/api/transactions,392,0,1
+1589840401895,477,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,5,5,http://localhost:4000/api/transactions,477,0,1
+1589840402094,383,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,5,5,http://localhost:4000/api/transactions,383,0,1
+1589840402204,327,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,5,5,http://localhost:4000/api/transactions,327,0,0
+1589840402341,335,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,5,5,http://localhost:4000/api/transactions,335,0,1
+1589840402391,325,Use Gift,201,Created,Marka Test 1-7,text,true,,617,414,5,5,http://localhost:4000/api/transactions,325,0,0
+1589840402316,400,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,5,5,http://localhost:4000/api/transactions,400,0,1
+1589840402494,335,Use Gift,201,Created,Marka Test 1-10,text,true,,617,414,4,4,http://localhost:4000/api/transactions,334,0,0
+1589840402548,296,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,3,3,http://localhost:4000/api/transactions,296,0,0
+1589840402691,239,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,3,3,http://localhost:4000/api/transactions,239,0,1
+1589840402734,214,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,3,3,http://localhost:4000/api/transactions,214,0,1
+1589840402859,251,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,3,3,http://localhost:4000/api/transactions,251,0,1
+1589840402945,227,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,3,3,http://localhost:4000/api/transactions,227,0,0
+1589840402966,222,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,3,3,http://localhost:4000/api/transactions,222,0,1
+1589840403125,241,Use Gift,201,Created,Marka Test 1-2,text,true,,617,414,3,3,http://localhost:4000/api/transactions,240,0,1
+1589840403191,235,Use Gift,201,Created,Marka Test 1-1,text,true,,617,414,2,2,http://localhost:4000/api/transactions,235,0,2
+1589840403205,234,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,1,1,http://localhost:4000/api/transactions,234,0,0
+1589840403459,120,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,1,1,http://localhost:4000/api/transactions,120,0,1
+1589840403590,118,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,1,1,http://localhost:4000/api/transactions,118,0,0
+1589840403719,115,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,1,1,http://localhost:4000/api/transactions,115,0,1
+1589840403847,103,Use Gift,201,Created,Marka Test 1-8,text,true,,617,414,1,1,http://localhost:4000/api/transactions,103,0,1

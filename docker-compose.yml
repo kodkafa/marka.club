@@ -27,6 +27,8 @@ services:
       CODE_SERVICE: "http://code:4004"
       TRANSACTION_SERVICE: "http://transaction:4006"
       QR_SERVICE: "http://qr:4008"
+    deploy:
+      replicas: 3
   auth:
     image: authservice:marka
     ports:

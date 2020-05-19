@@ -55,6 +55,8 @@ services:
       TRANSPORTER_EMAIL: "the.marka.club@gmail.com"
       TRANSPORTER_PASSWORD: "m@rk@club"
       ACTIVATION: "false"
+    deploy:
+      replicas: 3
   user:
     image: userservice:marka
     ports:
@@ -81,6 +83,8 @@ services:
       TRANSPORTER_EMAIL: "the.marka.club@gmail.com"
       TRANSPORTER_PASSWORD: "m@rk@club"
       ACTIVATION: "false"
+    deploy:
+      replicas: 3
   code:
     image: codeservice:marka
     ports:
@@ -103,6 +107,8 @@ services:
       MONGOURI: "mongodb://mongo:27017/marka"
       MONGOTESTURI: "mongodb://mongo:27017/test-app"
       APP_SECRET: "5fb44d89aa51fd8d1752f21451f4e079"
+    deploy:
+      replicas: 3
   transaction:
     image: transactionservice:marka
     ports:
@@ -129,6 +135,8 @@ services:
       TRANSPORTER_EMAIL: "the.marka.club@gmail.com"
       TRANSPORTER_PASSWORD: "m@rk@club"
       ACTIVATION: "false"
+    deploy:
+      replicas: 3
   qr:
     image: qrservice:marka
     ports:
@@ -148,6 +156,8 @@ services:
       CODE_SERVICE: "http://code:4004"
       TRANSACTION_SERVICE: "http://transaction:4006"
       QR_SERVICE: "http://qr:4008"
+    deploy:
+      replicas: 3
   mongo:
     image: mongo
     ports:

@@ -14,6 +14,7 @@ docker build ./QRService -t qrservice:marka
 docker build ./FrontEnd -t frontend:marka
 ```
 #### Docker Compose
+This is for quick check.
 ```
 docker-compose up
 docker-compose scale <service>=<replicas>
@@ -22,10 +23,25 @@ docker-compose down
 
 #### Docker Stack/Swarm
 ```
-docker swarm init
+docker swarm init # ignore for kubernetes
 docker stack deploy --compose-file=docker-compose.yml marka
 docker service scale marka_frontend=2
+docker stack ls
+docker stack rm marka
 ```
+
+###Kubernetes
+#### Kompose
+Install kompose to convert docker compose config.
+https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/#install-kompose
+```
+curl -L https://github.com/kubernetes/kompose/releases/download/v1.21.0/kompose-darwin-amd64 -o kompose
+
+```
+```
+brew install kompose
+```
+
 
 ### JMeter
 ```

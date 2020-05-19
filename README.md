@@ -23,11 +23,9 @@ docker-compose down
 
 #### Docker Stack (Swarm and Kubernetes)
 
-```
-docker swarm init # ignore for kubernetes
-```
 By Docker Swarm
 ```
+docker swarm init
 docker stack deploy --orchestrator swarm --compose-file docker-compose.yml marka
 ```
 By Kubernetes
@@ -38,9 +36,13 @@ To change service scale
 ```
 docker service scale marka_frontend=2
 ```
+List the stack
+```
+docker stack ls --orchestrator kubernetes
+```
 Remove the stack
 ```
-docker stack rm marka
+docker stack rm marka --orchestrator kubernetes
 ```
 
 ###Kubernetes

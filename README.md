@@ -1,9 +1,8 @@
 # marka.club
 
 ### Docker
-
-
 #### Builds
+Firstly, you build images.
 ```
 docker build ./APIGATEWAY -t apigateway:marka
 docker build ./AuthService -t authservice:marka
@@ -13,6 +12,7 @@ docker build ./TransactionService -t transactionservice:marka
 docker build ./QRService -t qrservice:marka
 docker build ./FrontEnd -t frontend:marka
 ```
+
 #### Docker Compose
 This is for quick check.
 ```
@@ -21,27 +21,32 @@ docker-compose scale <service>=<replicas>
 docker-compose down
 ```
 
-#### Docker Stack/Swarm
+#### Docker Stack (Swarm and Kubernetes)
+
 ```
 docker swarm init # ignore for kubernetes
-docker stack deploy --compose-file=docker-compose.yml marka
+```
+By Docker Swarm
+```
+docker stack deploy --orchestrator swarm --compose-file docker-compose.yml marka
+```
+By Kubernetes
+```
+docker stack deploy --orchestrator kubernetes --compose-file docker-compose.yml marka
+```
+To change service scale
+```
 docker service scale marka_frontend=2
-docker stack ls
+```
+Remove the stack
+```
 docker stack rm marka
 ```
 
 ###Kubernetes
 #### Kompose
-Install kompose to convert docker compose config.
+Install kompose to convert docker compose config for kubernetes.
 https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kubernetes/#install-kompose
-```
-curl -L https://github.com/kubernetes/kompose/releases/download/v1.21.0/kompose-darwin-amd64 -o kompose
-
-```
-```
-brew install kompose
-```
-
 
 ### JMeter
 ```

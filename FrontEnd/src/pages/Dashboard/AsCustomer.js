@@ -38,11 +38,11 @@ export const Customer = inject('AccountStore', 'CodeStore', 'QRStore')(observer(
           </div>
           <div className="mb-3 p-2 card h-75 overflow-auto">
             {QR && code
-              ? <div>
+              ? <div className="d-flex flex-column align-items-center justify-content-center d-">
                 <div dangerouslySetInnerHTML={{__html: QR}}/>
-                <p className="small">
+                <p className="small text-center">
                   You can scan the code or visit the URL below
-                  <a className="link d-block p-1" href={"/codes/use/" + code}
+                  <a className="link d-block p-1" href={code}
                      target="_blank" rel="noopener noreferrer">{code}</a>
                 </p>
                 <button className="btn btn-secondary" onClick={handleClose}>CLOSE</button>
@@ -66,7 +66,7 @@ export const Customer = inject('AccountStore', 'CodeStore', 'QRStore')(observer(
                     <td>{i.company.name}</td>
                     <td>{i.isUsed
                       ? <span className="d-block p-1">{i.code}</span>
-                      : <button key={i.id} className="link d-block p-1"
+                      : <button key={i.id} className="btn-link d-block"
                                 onClick={() => handleGenerate(i.code)}>{i.code}</button>}</td>
                     <td>{i.createdAt}</td>
                     <td>{i.updatedAt === i.createdAt ? '-' : i.updatedAt}</td>

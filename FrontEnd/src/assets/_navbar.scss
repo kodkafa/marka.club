@@ -1,5 +1,8 @@
 #navbar {
   //border-bottom: 1px dashed $gray-900;
+
+  background-color: darken($black, 10%);;
+
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -17,6 +20,7 @@
     background-size: contain;
     img { display: none;}
 
+    color: $white;
     &.active,
     &:active,
     &:focus,

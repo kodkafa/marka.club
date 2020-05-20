@@ -64,7 +64,7 @@ class Routes extends Component {
 
   render() {
     const {authenticated} = this.props.AccountStore;
-    if (!['/signin', '/signup', '/reset'].includes(this.props.location.pathname)) {
+    if (!['/signin', '/signup', '/reset', '/'].includes(this.props.location.pathname)) {
       localStorage.setItem('location', this.props.location.pathname + this.props.location.search + this.props.location.hash);
     }
     return (

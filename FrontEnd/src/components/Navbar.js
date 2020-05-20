@@ -1,36 +1,26 @@
 import {inject, observer} from "mobx-react";
-import React, {Component} from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 import {SystemMessages} from './SystemMessages';
-import {computed} from "mobx";
 import {ImageViewer} from './ImageViewer';
 import packageJson from '../../package.json';
 
+export const Navbar = inject('AccountStore')(observer(props => {
 
-@inject('AccountStore')
-@observer
-class Navbar extends Component {
+  const {authenticated, me} = props.AccountStore
+  const isShrink = props.className.indexOf('navbar-shrinked') > -1
+  const [isOpen, setIsOpen] = useState(false)
 
-  @computed get authenticated() {
-    return this.props.AccountStore.authenticated
-  }
+  const toggle = () => setIsOpen(!isOpen)
 
-  @computed get me() {
-    return this.props.AccountStore.me
-  }
-
-  get isShrink() {
-    return this.props.className.indexOf('navbar-shrinked') > -1
-  }
-
-  static dropDownToggle(e) {
+  const ddToggle = (e) => {
     const dd = e.currentTarget;
     dd.classList.toggle('show');
     dd.querySelector('.dropdown-menu').classList.toggle('show');
   }
 
-  static Shrink(e, shrink) {
+  const Shrink = (e, shrink) => {
     const navbar = document.getElementById('navbar');
     if (shrink || window.pageYOffset > 0) {
       navbar.classList.add("navbar-shrink");
@@ -39,24 +29,21 @@ class Navbar extends Component {
     }
   }
 
-  componentDidMount() {
-    if (!this.isShrink) {
-      Navbar.Shrink(null, !!this.me.uid);
-      window.addEventListener('scroll', Navbar.Shrink);
-    }
+  if (!isShrink) {
+    //Shrink(null, !!me.uid);
+    window.addEventListener('scroll', Shrink);
   }
 
 
-  renderLogo() {
-    return <Link to={this.me.uid ? "/dashboard" : "/"} className="navbar-brand" key="logo">
+  const renderLogo = () => {
+    return <Link to={me.uid ? "/dashboard" : "/"} className="navbar-brand" key="logo">
       {/*<img id="logo" src={logo} className="img-fluid" alt="logo"/>*/}
       <span>MARKA.CLUB</span>
       <span className="version">v{packageJson.version}</span>
     </Link>
   }
 
-  renderLinks() {
-    const {authenticated, me} = this;
+  const renderLinks = () => {
     if (authenticated) {
       return <React.Fragment>
         {me.id &&
@@ -78,11 +65,10 @@ class Navbar extends Component {
     }
   }
 
-  renderUserMenu() {
-    const {authenticated, me} = this;
+  const renderUserMenu = () => {
     if (authenticated) {
       return [
-        <li className="nav-item dropdown" key="userMenu" onClick={Navbar.dropDownToggle}>
+        <li className="nav-item dropdown" key="userMenu" onClick={ddToggle}>
           <span className="nav-link dropdown-toggle" data-toggle="dropdown">
             <ImageViewer className="navbar-avatar"
                          src={me.avatar} alt={me.name}/>
@@ -109,30 +95,26 @@ class Navbar extends Component {
     }
   }
 
-  render() {
-    return (
-      <nav id="navbar" className={"navbar navbar-expand-lg fixed-top " + this.props.className}>
-        <div className="container">
-          {this.renderLogo()}
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
-                  aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"/>
-          </button>
 
-          <div className="collapse navbar-collapse" id="navbarMain">
-            <ul className="navbar-nav mr-auto">
-              {this.renderLinks()}
-            </ul>
+  return (
+    <nav id="navbar" className={"navbar navbar-expand-lg fixed-top " + props.className}>
+      <div className="container">
+        {renderLogo()}
+        <button className="navbar-toggler" type="button" aria-label="Toggle navigation" onClick={toggle}>
+          <span className="navbar-toggler-icon"/>
+        </button>
 
-            <ul className="nav navbar-nav navbar-right">
-              {this.renderUserMenu()}
-            </ul>
-          </div>
+        <div className={"collapse navbar-collapse" + (isOpen ? ' show' : '')} id="navbarMain">
+          <ul className="navbar-nav mr-auto">
+            {renderLinks()}
+          </ul>
+
+          <ul className="nav navbar-nav navbar-right">
+            {renderUserMenu()}
+          </ul>
         </div>
-        <SystemMessages/>
-      </nav>
-    );
-  }
-}
-
-export default Navbar
+      </div>
+      <SystemMessages/>
+    </nav>
+  );
+}));

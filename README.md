@@ -52,8 +52,58 @@ https://kubernetes.io/docs/tasks/configure-pod-container/translate-compose-kuber
 
 ### JMeter
 ```
-jmeter -n -t test.jmx -l log.jtl 
+jmeter -n -t test.jmx -l result.txt -j test.log 
 ```
+
+### MANUAL RUN
+Requirements:
+* NodeJS: https://nodejs.org/en/download/
+* Docker (for mongodb)  https://docs.docker.com/docker-for-windows/install/
+* Yarn: https://classic.yarnpkg.com/en/docs/install#windows-stable
+
+First, run mongo db
+```
+docker run -d -p 27017-27019:27017-27019 --name mongodb mongo
+```
+After, you should run services 
+```
+cd ./AuthService 
+yarn install
+yarn start
+```
+```
+cd ./UserService
+yarn install
+yarn start
+```
+```
+cd ./CodeService
+yarn install
+yarn start
+```
+```
+cd ./TransactionService
+yarn install
+yarn start
+```
+```
+cd ./QRService
+yarn install
+yarn start
+```
+```
+cd ./FrontEnd
+yarn install
+yarn start
+```
+Finally
+```
+cd ./APIGATEWAY
+yarn install
+yarn start
+```
+
+
 
 ### TODO
 * Check and fix APIDOCS
